@@ -1,0 +1,13 @@
+header{
+    background-color: aquamarine;/*cor de fundo*/
+    color: beige;/*cor da fonte*/
+}
+main{
+    background-color: blanchedalmond;
+    color: aqua;
+}
+
+footer{
+    background-color: rgb(202, 140, 47);
+    color: rgb(166, 250, 250);
+}
