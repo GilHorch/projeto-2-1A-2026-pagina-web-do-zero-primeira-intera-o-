@@ -1,6 +1,10 @@
 header{
     background-color: aquamarine;/*cor de fundo*/
     color: beige;/*cor da fonte*/
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;/*espaçamento interno*/
 }
 main{
     background-color: blanchedalmond;
