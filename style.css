@@ -5,12 +5,13 @@ header{
 main{
     background-color: blanchedalmond;
     color: rgb(50, 211, 32);
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
+    text-align: center;/*alinhamento do texto*/
+    max-width: 800px;/* largura máxima */
+    margin: 0 auto;/*espaçamento externo ao redor do elemento*/
 }
 
 footer{
     background-color: rgb(202, 140, 47);
     color: rgb(166, 250, 250);
 }
+
