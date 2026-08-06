@@ -1,14 +1,14 @@
 header{
     background-color: aquamarine;/*cor de fundo*/
     color: beige;/*cor da fonte*/
-    text-align: center;
-    max-width: 800px;
+    text-align: center;/*alinhar o texto ao centro*/
+    max-width: 800px;/*largura máxima*/
     margin: 0 auto;
     padding: 16px;/*espaçamento interno*/
     border: 5px solid black;
 }
 main{
-    background-color: blanchedalmond;
+    background-color: blanchedalmond;/*cor de fundo*/
     color: rgb(50, 211, 32);
     text-align: center;/*alinhamento do texto*/
     max-width: 800px;/* largura máxima */
@@ -16,7 +16,10 @@ main{
 }
 
 footer{
-    background-color: rgb(202, 140, 47);
-    color: rgb(166, 250, 250);
+    background-color: rgb(202, 140, 47);/*cor de fundo*/
+    color: rgb(166, 250, 250);/*cor da fonte*/
 }
-
+img{
+    width: 80px;/*largura*/
+    height: 80px;/*altura*/
+}
