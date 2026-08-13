@@ -15,13 +15,28 @@
     </header>
 
     <main>
+
         <img src="livro.jpg" alt="imagem de um livro">
-        <h2> Meu primeiro post </h2>
-        <p>Por: Gilmar Horchulhak</p>
-        <p>Boas-vindas ao meu blog!</p>
+        <div>
+            <h2> Meu primeiro post </h2>
+            <p class="artigo-autor">Por: Gilmar Horchulhak</p>
+            <p>Boas-vindas ao meu blog!</p>
+
+            <button>❤️<span>0</span></button>
+
+        </div>
+
+
     </main>
 
     <footer>Rodapé</footer>
+
 </body>
+<script>
+
+    const botao=document.querySelector("button");
+    botao.addEventListener("click", botaoClicado);
+
+</script>
 
 </html>
