@@ -32,10 +32,16 @@
     <footer>Rodapé</footer>
 
 </body>
+
 <script>
 
-    const botao=document.querySelector("button");
-    botao.addEventListener("click", botaoClicado);
+    const botao=document.querySelector("button");//cria uma variável chamada botão selecionando a tag "button"
+     botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
+
+    function botaoClicado(){//cria uma função
+        console.log("Fui clicado");//mostra se o botão foi clicado
+    }
+
 
 </script>
 
