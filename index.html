@@ -34,13 +34,15 @@
     botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
 
     function botaoClicado() {
-    console.log("fui clicado");
+    
     let texto = botao.querySelector("span");
     if (curtiu === true){
         texto.textContent++;
+        console.log("curtiu");
         curtiu = false;
     } else if(naocurtiu===true){
         texto.textContent++;
+        console.log("naocurtiu");
         naocurtiu = false;
     }
 }
