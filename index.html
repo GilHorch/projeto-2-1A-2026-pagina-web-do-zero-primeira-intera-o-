@@ -21,13 +21,15 @@
             <p>Boas-vindas ao meu blog!</p>
 
             <button>❤️<span>0</span></button>
-            <button>❤️<span>0</span></button>
+            <button>👍<span>0</span></button>
         </div>
     </main>
     <footer>Rodapé</footer>
 </body>
 <script>
     const botoes=document.querySelectorAll("button");//cria uma variável chamada botão selecionando a tag "button"
+    let like=botoes[0]
+    let deslike=botoes[1]
     botoes.forEach(function(botao){
     botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
 
