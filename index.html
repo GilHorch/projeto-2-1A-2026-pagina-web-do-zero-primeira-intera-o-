@@ -36,12 +36,12 @@
     function botaoClicado() {
     console.log("fui clicado");
     let texto = botao.querySelector("span");
-    if (curtiu === false){
+    if (curtiu === true){
         texto.textContent++;
-        curtiu = true;
-    } else {
-        texto.textContent--;
         curtiu = false;
+    } else if(naocurtiu===true){
+        texto.textContent++;
+        naocurtiu = false;
     }
 }
     })
