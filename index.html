@@ -27,26 +27,28 @@
     <footer>Rodapé</footer>
 </body>
 <script>
-    const botoes=document.querySelectorAll("button");//cria uma variável chamada botão selecionando a tag "button"
-    let curtiu=botoes[0]
-    let naocurtiu=botoes[1]
-    
-    botoes.forEach(function(botao){
-    botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
+    const botoes = document.querySelectorAll("button");//cria uma variável chamada botão selecionando a tag "button"
+    let curtiu = botoes[0]
+    let naocurtiu = botoes[1]
 
-    function botaoClicado() {
-    
-    let texto = botao.querySelector("span");
-    if (curtiu === true){
-        texto.textContent++;
-        console.log("curtiu");
-        curtiu = false;
-    } else if(naocurtiu===true){
-        texto.textContent++;
-        console.log("naocurtiu");
-        naocurtiu = false;
-    }
-}
+    botoes.forEach(function (botao) {
+        botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
+
+        function botaoClicado() {
+
+            let texto = botao.querySelector("span");
+            if (curtiu === true) {
+                texto.textContent++;
+                console.log("curtiu");
+                curtiu = false;
+            } else if (naocurtiu === true) {
+                texto.textContent++;
+                console.log("naocurtiu");
+                naocurtiu = false;
+            }
+        }
     })
+    
 </script>
+
 </html>
